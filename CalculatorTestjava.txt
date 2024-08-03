@@ -1,0 +1,20 @@
+package com.meenus;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	@Test
+	public void test() {
+		Calculator calc=new Calculator();
+		int actual=calc.add(10,10);
+		int expected=20;
+		assertEquals(expected,actual);
+		
+		
+		
+	}
+
+}
