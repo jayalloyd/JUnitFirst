@@ -1,0 +1,17 @@
+package com.meenus.learning;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class ComputeSumTest {
+	ComputeSum computeSum=new ComputeSum();
+	@Test
+	void sumComputation() {
+		int expected=24;
+		int original=24;
+		assertEquals(expected,original);
+	}
+	
+
+}

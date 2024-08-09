@@ -1,0 +1,12 @@
+package com.meenus.learning;
+
+public class ComputeSum {
+	private int num1=12;
+	private int num2=12;
+	public int sumComputation() {
+		int result=num1+num2;
+		return result;
+		
+	}
+
+}
