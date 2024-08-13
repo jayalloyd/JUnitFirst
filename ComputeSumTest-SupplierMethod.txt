@@ -13,7 +13,8 @@ public class ComputeSumTest {
 	
 	@Test
 	void Sum_Supplier() {
-		assertEquals(8,3,()->"Answer is wrong");
+		assertEquals(8,3,()->"Answer is wrong");//only if the test case failed String message will be evaluated-using Supplier method
+
 	}
 
 
