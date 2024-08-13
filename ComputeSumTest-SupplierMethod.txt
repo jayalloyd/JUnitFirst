@@ -1,0 +1,20 @@
+package com.meenus;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class ComputeSumTest {
+	ComputeSum sum=new ComputeSum();
+	@Test
+	void Sum() {
+		assertEquals(3,3);
+	}
+	
+	@Test
+	void Sum_Supplier() {
+		assertEquals(8,3,()->"Answer is wrong");
+	}
+
+
+}
