@@ -1,0 +1,16 @@
+package com.meenus;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+public class StringAssertTrue {
+	@Test
+	void test() {
+		String str="Rooney";
+		boolean status=str.equals("Rooney");
+		assertTrue(status);//success only if the status is true,else fails
+		
+	}
+
+}
