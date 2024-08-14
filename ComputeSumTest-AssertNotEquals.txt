@@ -1,0 +1,22 @@
+package com.meenus;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class ComputeSumTest {
+	ComputeSum sum=new ComputeSum();
+	@Test
+	void Sum() {
+		assertEquals(3,3);
+	}
+	
+	@Test
+	void Sum_Supplier() {
+		assertNotEquals(3,3,()->"Answer is wrong");//Supplier method works in this as well
+		//opposite of assertEquals
+	}
+
+
+}
