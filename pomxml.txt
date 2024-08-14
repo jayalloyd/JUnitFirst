@@ -1,30 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.meenus</groupId>
-  <artifactId>JUnitProjectSetUp</artifactId>
+  <groupId>com.xyz</groupId>
+  <artifactId>Log4j2Example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <properties>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<maven.compiler.source>14</maven.compiler.source>
-	<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-	<junit.jupiter.version>5.10.0</junit.jupiter.version>
-</properties>
-  <dependencies>
-	<dependency>
-		<groupId>org.junit.jupiter</groupId>
-		<artifactId>junit-jupiter</artifactId>
-		<version>${junit.jupiter.version}</version>
-		<scope>test</scope>
-	</dependency>
+  <name>Log4j2Example</name>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <dependencies><!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.17.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.17.1</version>
+</dependency>
+
 </dependencies>
-<build>
-<plugins>
-		<plugin>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.8.1</version>
-		</plugin>
-
-	</plugins>
-		</build>
-
 </project>
+
+//used dependencies-> log4j core
+log4j-api
+used properties-> maven.compiler.source

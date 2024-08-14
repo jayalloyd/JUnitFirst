@@ -1,0 +1,22 @@
+package com.xyz;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Log4jTest {
+	private static final Logger Logger=LogManager.getLogger(Log4jTest.class);
+
+public static void main (String [] args) {
+	process();
+}
+
+public static void process() {
+	Logger.trace("trace this portion");
+	Logger.debug("Debug");
+	Logger.info("info");
+	Logger.error("error");
+	Logger.fatal("from fatal");
+
+}
+
+}
