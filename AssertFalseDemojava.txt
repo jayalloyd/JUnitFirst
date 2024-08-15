@@ -1,0 +1,17 @@
+package com.meenus;
+
+import static org.junit.Assert.assertFalse;
+
+import org.junit.jupiter.api.Test;
+
+public class StringAssertFalse {
+	@Test
+	void test() {
+		String str= "rooney is a handsome dog";
+		boolean status=(str.length()<5);
+		assertFalse(status);
+		//opposite of assertTrue...success only if the test returns false
+		
+	}
+
+}
