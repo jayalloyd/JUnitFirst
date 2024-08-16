@@ -1,0 +1,16 @@
+package com.meenus;
+
+import static org.junit.Assert.assertArrayEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class AssertionOverArray {
+	@Test
+	void test() {
+		int [] expected= {2,5,6,7,4};
+		int [] org= {2,5,6,7,4};
+		assertArrayEquals(expected,org);//success if the array has same ,elements in same order and same length else fails
+		
+	}
+
+}
