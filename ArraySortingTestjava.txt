@@ -1,0 +1,27 @@
+package com.meenus;
+
+import static org.junit.Assert.fail;
+
+import org.junit.jupiter.api.Test;
+
+public class ArraySortingTest {
+	@Test
+	void test() {
+		try {
+		ArraySorting arrayTest=new ArraySorting();
+//		int [] array= null;
+		
+		int [] array= {3,2,5,1};
+		int [] result=arrayTest.SortingArray(array);
+		
+		System.out.println("Statement after exception");
+		System.out.println("No Exception generated");
+		for(int elem:result) {
+			System.out.print(elem);
+		}
+		fail();//if exception is generated the test case should pass,else it should fail
+	}catch(NullPointerException e) {
+		System.out.println("Exception generated");
+	}
+
+}}

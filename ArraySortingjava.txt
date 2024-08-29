@@ -1,0 +1,11 @@
+package com.meenus;
+
+import java.util.Arrays;
+
+public class ArraySorting{
+	public int[]  SortingArray(int[] array) {
+	Arrays.sort(array);
+	return array;
+
+}
+}
