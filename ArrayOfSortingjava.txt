@@ -1,0 +1,14 @@
+package com.meenus;
+
+import java.util.Arrays;
+
+public class ArrayOfSorting {
+	public int[] SortingArray(int [] array) {
+		for(int i=0;i<=2000;i++) {
+		
+			Arrays.sort(array);
+		}
+		return array;
+	}
+
+}
